@@ -78,4 +78,12 @@ Company information
 Social media links
 Copyright information
 Each component will be designed for reusability and consistency across the application.
+## Technology Stack
+
+- **Frontend**: React, Next.js, Tailwind CSS, TypeScript  
+- **Backend**: Django (Python), GraphQL  
+- **Database**: PostgreSQL  
+- **Version Control**: Git & GitHub  
+- **Deployment**: Docker, CI/CD pipelines
+- 
 
