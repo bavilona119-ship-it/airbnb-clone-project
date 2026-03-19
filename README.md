@@ -149,3 +149,21 @@ This section describes how the application ensures security for its APIs and use
 
 - **Rate Limiting**  
   Limits the number of API requests to prevent abuse and DDoS attacks.
+  ## CI/CD Pipeline
+
+This section explains the Continuous Integration and Continuous Deployment (CI/CD) process used in the project.
+
+- **Continuous Integration (CI)**  
+  Code changes are automatically tested and validated when pushed to the repository.
+
+- **Continuous Deployment (CD)**  
+  The application is automatically deployed to the production or staging environment after passing tests.
+
+- **Tools Used**  
+  GitHub Actions for automation, Docker for containerization, and cloud platforms for deployment.
+
+- **Benefits**  
+  - Faster development cycles  
+  - Early bug detection  
+  - Improved code quality  
+  - Automated deployment process  
