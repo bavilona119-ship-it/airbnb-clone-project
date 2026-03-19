@@ -86,4 +86,45 @@ Each component will be designed for reusability and consistency across the appli
 - **Version Control**: Git & GitHub  
 - **Deployment**: Docker, CI/CD pipelines
 - 
+## Database Design
 
+The database is designed to efficiently store and manage property listings, user data, and booking information.
+
+### Main Entities
+
+- **Users**
+  - id
+  - name
+  - email
+  - password
+  - role
+
+- **Properties**
+  - id
+  - title
+  - description
+  - location
+  - price
+  - owner_id
+
+- **Bookings**
+  - id
+  - user_id
+  - property_id
+  - check_in_date
+  - check_out_date
+  - total_price
+
+- **Reviews**
+  - id
+  - user_id
+  - property_id
+  - rating
+  - comment
+
+### Relationships
+
+- A user can own multiple properties  
+- A user can make multiple bookings  
+- A property can have multiple bookings  
+- A property can have multiple reviews  
