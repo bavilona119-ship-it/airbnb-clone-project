@@ -131,3 +131,21 @@ The database is designed to efficiently store and manage property listings, user
 Check if you created a section in your README.md file named Feature Breakdown
 
 README.md doesn't contain: ["Feature Breakdown"]
+## API Security
+
+This section describes how the application ensures security for its APIs and user data.
+
+- **Authentication**  
+  Secure user authentication using tokens (e.g., JWT) to verify user identity.
+
+- **Authorization**  
+  Role-based access control to ensure users can only access permitted resources.
+
+- **Data Encryption**  
+  Sensitive data is encrypted using HTTPS and secure hashing algorithms.
+
+- **Input Validation**  
+  All incoming data is validated to prevent malicious inputs and attacks.
+
+- **Rate Limiting**  
+  Limits the number of API requests to prevent abuse and DDoS attacks.
