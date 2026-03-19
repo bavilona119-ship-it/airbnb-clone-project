@@ -16,6 +16,16 @@ Property Listing View    /	 Grid display of available properties with filters
 Listing Detailed View	   /   Complete property details with images and booking form
 Simple Checkout View	   /   Streamlined payment and booking confirmation
 Importance of User-Friendly Design
+## Team Roles
+
+- **Project Manager**: Oversees timeline, coordinates team, manages deliverables  
+- **Frontend Developers**: Implements UI components and ensures responsive design  
+- **Backend Developers**: Builds APIs, manages database, implements business logic  
+- **Designers**: Creates mockups and ensures UX quality  
+- **QA/Testers**: Writes test cases, performs testing, reports bugs  
+- **DevOps Engineers**: Manages deployment, CI/CD pipeline, and infrastructure  
+- **Product Owner**: Defines requirements and prioritizes features  
+- **Scrum Master**: Facilitates agile processes and removes blockers  
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
 # 2.More UI/UX Design Planning
